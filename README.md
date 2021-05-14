@@ -1,6 +1,6 @@
 # Getting started with Bottlerocket on AWS Graviton2
 
-In this post we bring Bottlerocket and Graviton2 technologies together by spinning up a Kubernetes cluster running Bottlerocket OS on Graviton2-based worker nodes. Since customers will incrementally migrate their x86-based workloads to Arm64-based, we expect their Kubernetes clusters to have a mix of both Graviton2 as well as x86-based EC2 instances. Hence I’ve chosen to showcase that use case here. We’ll deploy a EKS cluster composed of two Managed Node Groups, one configured with x86-based and the other with Graviton2-based EC2 instance type, both of which utilize Bottlerocket-based AMI.
+In this AWS sample code, we bring Bottlerocket and Graviton2 technologies together by spinning up a Kubernetes cluster running Bottlerocket OS on Graviton2-based worker nodes. As customers start to adopt Graviton2-based EC2 instances, we expect their Kubernetes clusters to have a mix of both Graviton2 as well as x86-based EC2 instances. Hence I’ve chosen to showcase that use case here. We’ll deploy a EKS cluster composed of two Managed Node Groups, one configured with x86-based and the other with Graviton2-based EC2 instance type, both of which utilize Bottlerocket-based AMI.
 
 ## Solution Overview
 
