@@ -50,7 +50,7 @@ aws ssm put-parameter —name "/hello-bottlerocket/dockerhub/password" —type "
 Fetch the code by doing a git clone on this repository.
 
 ```
-git clone https://github.com/aws-samples/hello-bottlerocket.git hello-bottlerocket
+git clone https://github.com/aws-samples/amazon-eks-bottlerocket-nodes-on-graviton2.git hello-bottlerocket
 ```
 
 The folder ‘cdk’ contains the code to build an EKS cluster and a build pipeline infrastructure. They are located in the ‘container_infra’ and ‘build_infra’ folders respectively. 
